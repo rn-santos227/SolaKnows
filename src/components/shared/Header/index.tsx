@@ -1,3 +1,5 @@
+import './style.css';
+
 const Header = () => {
   return (
     <header className="absolute top-0 left-0 w-full text-white p-4">
