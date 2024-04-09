@@ -31,3 +31,9 @@ body {
     text-wrap: balance;
   }
 }
+
+.index-background {
+  background-image: url("/src/app/assets/images/bg.png"); 
+  background-size: cover;
+  background-position: center;
+}
