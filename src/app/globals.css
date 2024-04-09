@@ -32,8 +32,8 @@ body {
   }
 }
 
-.index-background {
-  background-image: url("/src/app/assets/images/bg.png"); 
+.background {
+  background-image: url("/images/bg.png"); 
   background-size: cover;
   background-position: center;
 }
