@@ -12,3 +12,15 @@
 .custom-button:hover {
   background-color: var(--hover-bg-color, #333); 
 }
+
+.green-filled {
+  --bg-color: #00FF00;
+  --text-color: #fff;
+  --border-color: #00FF00;
+}
+
+.green-border {
+  --bg-color: #000;
+  --text-color: #fff;
+  --border-color: #00FF00;
+}
