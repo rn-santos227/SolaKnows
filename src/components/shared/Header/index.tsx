@@ -14,7 +14,7 @@ const Header = () => {
       <div className="flex items-center">
         <Image src="/images/logo-title.png" alt="Logo" width={200} height={200} />
       </div>
-      <div className="flex space-x-4">
+      <div className="flex space-x-4 mx-4">
 
       </div>
     </header>
