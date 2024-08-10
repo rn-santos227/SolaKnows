@@ -25,7 +25,7 @@ const Header = () => {
         <Image src="/images/logo-title.png" alt="Logo" width={200} height={200} />
       </div>
       <div className="flex space-x-4 mx-4">
-
+        <Button text="LOGIN" onClick={handleLogin} className="green-border" />
       </div>
     </header>
   );
