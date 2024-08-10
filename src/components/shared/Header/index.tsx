@@ -1,10 +1,12 @@
-import { useRouter } from 'next/router';
+"use client";
+
+import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 
 import './style.css';
 
 const Header = () => {
-  const { pathname } = useRouter();
+  const pathname = usePathname();
   const isHomePage = pathname === '/';
 
   return (
