@@ -11,6 +11,14 @@ const Header = () => {
   const pathname = usePathname();
   const isHomePage = pathname === '/';
 
+  const handleLogin = () => {
+    // Add your login functionality here
+  };
+
+  const handleSignup = () => {
+    // Add your signup functionality here
+  };
+
   return (
     <header className={`fixed top-0 left-0 w-full text-white p-1 flex justify-between items-center bg-black ${isHomePage ? 'shadow-light-green' : 'shadow-lg'} z-50`}>
       <div className="flex items-center">
