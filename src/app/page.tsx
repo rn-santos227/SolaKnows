@@ -1,15 +1,17 @@
 "use client";
 
+import { useRouter } from 'next/router';
 import Image from 'next/image';
 
 export default function Index() {
+  const router = useRouter();
 
   const handleLogin = () => {
-    // Add your login functionality here
+    router.push('/login');
   };
 
   const handleSignup = () => {
-    // Add your signup functionality here
+    router.push('/signup');
   };
 
   return (
