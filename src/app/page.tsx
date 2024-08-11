@@ -1,6 +1,16 @@
 "use client";
 
+import Image from 'next/image';
+
 export default function Index() {
+
+  const handleLogin = () => {
+    // Add your login functionality here
+  };
+
+  const handleSignup = () => {
+    // Add your signup functionality here
+  };
 
   return (
     <>
